@@ -1,0 +1,25 @@
+.root-prod {
+    display: flex;
+    align-items: center;
+    padding: 30px 125px;
+}
+
+.img-prod {
+    margin-right: 35px;
+}
+
+.description-prod {
+    width: 500px;
+}
+.description-title-prod {
+    margin: 30px 0px;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.description-desc-prod {
+    margin: 30px 0px;
+    font-weight: 600;
+}
+.description-btn-prod {
+    margin: 30px 0px;
+}

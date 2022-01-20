@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {
+  Header,
+  Introduction,
+  Product as DescProd,
+  Collection,
+  Networks,
+} from './components';
+import img2 from './images/img2.jpg';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Introduction />
+      <DescProd
+        image={img2}
+        height="300px"
+        title="Profile"
+        description="PT Dapensi Trio Usaha (PT DTU) yang didirikan pada tanggal 21 Januari 1992 berdasarkan Akta Notaris Wiratni Ahmadi, SH di Bandung, tanggal 21 Januari 1992 Nomor 55, yang disahkan oleh Menteri Kehakiman Republik Indonesia dengan Surat Keputusan Pengesahan Menteri Kehakiman & HAM RI, Tahun 1995 Nomor : C2-3976.HT.01.01.TH.95."
+      />
+      <Collection />
+      <Networks />
     </div>
   );
-}
+};
 
 export default App;

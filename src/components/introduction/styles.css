@@ -1,0 +1,22 @@
+.root-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 125px;
+}
+
+.description-intro {
+    width: 500px;
+}
+.description-title-intro {
+    margin: 30px 0px;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.description-desc-intro {
+    margin: 30px 0px;
+    font-weight: 600;
+}
+.description-btn-intro {
+    margin: 30px 0px;
+}

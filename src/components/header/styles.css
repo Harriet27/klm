@@ -1,0 +1,46 @@
+.root-header {
+    box-shadow: 0px 3px 5px 0px rgba(135,135,135,0.85);
+}
+
+.top-header {
+    padding: 0 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #14212B;
+    height: 40px;
+}
+
+.contact-header {
+    padding: 0 125px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60px;
+}
+.contact-info-header {
+    font-weight: 600;
+}
+
+.navs-header {
+    padding: 0 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navs-txt-header {
+    cursor: pointer;
+    font-weight: 600;
+}
+.navs-btn-header {
+    border-radius: 2.5px;
+    cursor: pointer;
+    padding: 15px;
+    background-color: #D8251E;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+.navs-btn-header:hover {
+    background-color: #14212B;
+}
