@@ -31,7 +31,7 @@ const Header = () => {
                 <div>
                     <img src={dtu} style={{height: '80px'}} />
                 </div>
-                <div className='navs-txt-header'>Beranda</div>
+                <div className='navs-txt-header' style={{color: '#D8251E'}}>Beranda</div>
                 <div className='navs-txt-header'>Tentang Kami</div>
                 <div className='navs-txt-header'>Tim Kami</div>
                 <div className='navs-txt-header'>Produk +</div>

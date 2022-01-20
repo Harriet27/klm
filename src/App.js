@@ -5,6 +5,8 @@ import {
   Product as DescProd,
   Collection,
   Networks,
+  Partners,
+  Footer,
 } from './components';
 import img2 from './images/img2.jpg';
 
@@ -21,6 +23,8 @@ const App = () => {
       />
       <Collection />
       <Networks />
+      <Partners />
+      <Footer />
     </div>
   );
 };
