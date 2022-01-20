@@ -1,0 +1,47 @@
+Fullstack Developer Test.
+
+This test required your knowledge and skills of laravel blade templating and some basic softskill about backend development / nodejs, laravel etc.
+You must submit your answer no more than 12 hours since its been given.
+
+Open the link using browser. Its figma files.
+Link: https://www.figma.com/file/Sk8bsB7cDRv8rOuLud7gSC/DPU?node-id=0%3A1
+
+1. Task: Create a laravel site using the homepage mention in the link. Just the homepage (basic blade templating). Dont forget the CTA button have to call an action and do some user interaction when user interact with other element. Mobile Responsive is a must.
+ETA: 5-6 hours
+Answer: https://github.com/Harriet27/klm
+
+2. What the differences between SASS and LESS?
+Answer: SASS is based on Ruby, while LESS uses JavaScript. Also, LESS gives users a chance to activate mixins when certain situations occur. On the other hand, SASS provides loops and case distinctions that are known to most programming languages.
+
+3. What are the benefits of using Web Services?
+Answer: 
+- Extensible Markup Language (XML)
+- Hypertext Transfer Protocol (HTTP)
+- SOAP
+- Universal Description, Discovery, and Integration (UDDI)
+- Web Services Description Language (WSDL).
+
+4. Explain the architectural style used to create the web API.
+Answer: REST API.
+Rest (REpresentational State Transfer) and API (Application Programming Interface).
+
+5. What are some best practices that are used for performance testing?
+Answer:
+- Single user test
+- Load test
+- Peak load test
+- Endurance test
+- Stress test
+- High Availability test
+
+6. What is the difference between Javascript and node.js?
+Answer: 
+Javascript => programming language
+Node JS => Interpreter and Environment for Javascript with some libraries in it.
+
+7. Create REST service for creating article / product on the figma link below. Just Create and Delete API to add/delete the product list using laravel stack.
+Answer: https://github.com/Harriet27/klm
+
+Submit your test and provided the laravel project in zip files you just created and sent to deni.ramdhan@klinis.id
+
+If you have any further question about the given test please ask Mrs.Elin
